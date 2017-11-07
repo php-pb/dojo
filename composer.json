@@ -1,6 +1,6 @@
 {
     "name": "php-pb/dojo",
-    "description": "Suite para desenvolvimento de dojos",
+    "description": "Test suite to Dojo's development.",
     "type": "project",
     "require": {
         "php": "^7.0"
@@ -27,6 +27,6 @@
         }
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit -c"
+        "test": "./vendor/bin/phpunit --colors=always"
     }
 }
