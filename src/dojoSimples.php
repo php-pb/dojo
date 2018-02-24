@@ -4,7 +4,7 @@ namespace Dojo;
 
 function testRoadSec()
 {
-    return true;
+    assert(true == false, "Esperado false, mas true foi retornado.");
 }
 
 testRoadSec();
